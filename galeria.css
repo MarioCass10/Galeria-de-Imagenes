@@ -1,8 +1,12 @@
+/* EDITAMOS EL SECTION */
+
 section{
     display: flex;
     width: 600px;
     height: 430px;
 }
+
+/* LUEGO LAS IMAGENES EN EL SECTION */
 
 section img{
     width: 0px;
@@ -11,6 +15,8 @@ section img{
     opacity: .8;
     transition: .5s ease;
 }
+
+/* POR ULTIMO EL TOQUE QUE LE DARA ESA ANIMACIÓN ATRACTIVA */
 
 section img:hover {
     cursor: crosshair;
